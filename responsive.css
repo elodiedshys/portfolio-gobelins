@@ -1,0 +1,191 @@
+/* TABLETTE */
+/* TABLETTE */
+/* TABLETTE */
+/* TABLETTE */
+/* TABLETTE */
+
+@media (max-width: 960px) {
+	body {
+		width: 960px;
+	}
+
+	.scroll {
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 4;
+	}
+
+	.desktopOnly {
+		display: none;
+	}
+
+	.mobileTabletteOnly {
+		display: grid;
+	}
+
+	.mobileTabletteOnly img {
+		height: 200px;
+	}
+
+	.mobileTabletteOnly h3 {
+		margin: 0;
+	}
+
+	.mobileTabletteOnly .projet1 {
+		grid-column: 2 / span 3;
+		grid-row: 2 / span 2;
+	}
+
+	.mobileTabletteOnly .projet2 {
+		grid-column: 7 / span 3;
+		grid-row: 2 / span 2;
+	}
+
+	.mobileTabletteOnly .projet3 {
+		grid-column: 2 / span 3;
+		grid-row: 5 / span 2;
+	}
+
+	.mobileTabletteOnly .projet4 {
+		grid-column: 7 / span 3;
+		grid-row: 5 / span 2;
+	}
+
+	.mobileTabletteOnly .projet5 {
+		grid-column: 2 / span 3;
+		grid-row: 8 / span 2;
+	}
+
+	/* Page A propos*/
+
+	.biography {
+		grid-column: 2 / span 8;
+		grid-row: 1 / span 5;
+	}
+
+	.portrait {
+		grid-column: 2 / span 8;
+		grid-row: 6 / span 5;
+	}
+
+	span {
+		background-position-y: 13px;
+	}
+}
+
+/* SMARTPHONE */
+/* SMARTPHONE */
+/* SMARTPHONE */
+/* SMARTPHONE */
+/* SMARTPHONE */
+
+@media (max-width: 480px) {
+	body {
+		width: 480px;
+	}
+
+	.presentation, .competences {
+		display: block;
+		margin : 3em auto;
+	}
+
+	.presentation>img, .presentation>.texte, .competences, .items_x3, .items_x3>img {
+		max-width: 100%;
+	}
+
+	.items_x3>h4 {
+		font-size: 20px;
+	}
+
+	p, header {
+		font-size: 18px;
+	}
+
+	.mobileTabletteOnly {
+		display: block;
+		max-width: 380px;
+		margin: auto;
+	}
+
+	.projet1, .projet2, .projet3, .projet4, .projet5 {
+		padding-bottom: 2em;
+	}
+
+	.mobileTabletteOnly img {
+		height: auto;
+	}
+
+	/* page a propos */
+	.mesCompetences h2 {
+		grid-column: 2 / span 8;
+		grid-row: 1 / span 1;
+	}
+	.mesCompetences .items_1 {
+		grid-column: 2 / span 3;
+		grid-row: 2 / span 3;
+	}
+
+	.mesCompetences .items_2 {
+		grid-column: 7 / span 3;
+		grid-row: 2 / span 3;
+	}
+
+	.mesCompetences .items_3 {
+		grid-column: 2 / span 3;
+		grid-row: 6 / span 3;
+	}
+
+	/* page projet : showreel + noctambule */
+	.showreel iframe, .noctambule iframe {
+		max-width: 400px;
+	}
+
+	.showreel .intro, .noctambule .intro{
+	    grid-row: 2 / span 10;
+	}
+	/* page projet : ODE*/
+	.ODE .intro {
+		grid-row: 2 / span 10;
+	}
+
+	.ODE .context_left, .ODE .context_right, .ODE .openEntNg,	.ODE .neoEnt {
+		max-height: 400px;
+	}
+
+	.ODE .context_left {
+		grid-column: 2 / span 8;
+		grid-row: 1 / span 2;
+	}
+
+	.ODE .context_right {
+		grid-column: 2 / span 8;
+		grid-row: 3 / span 2;
+	}
+
+	.ODE h2 {
+		grid-column: 2/ span 9;
+		grid-row: 5 / span 1;
+		max-height: 40px;
+	}
+
+	.ODE .openEntNg {
+	    grid-column: 2/ span 8;
+	    grid-row: 6 / span 2;
+			max-height: 400px;
+	}
+
+	.ODE .neoEnt {
+			grid-column: 2/ span 8;
+			grid-row: 8 / span 3;
+			max-height: 400px;
+	}
+
+	.ODE .bannerProjet {
+		grid-column: 1 / span 10;
+		grid-row: 1 / span 10;
+	}
+
+	.socials {
+		font-size: 18px;
+    	padding: 0 5px;
+	}
+}

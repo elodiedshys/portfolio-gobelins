@@ -1,0 +1,225 @@
+
+
+body {
+	background-color: #f9f9f9;
+	width: 1000px;
+	margin: 50px auto 50px auto;
+	font-family: 'Faune', sans-serif;
+	color: #5F5C6D;
+}
+
+/* layout */
+
+.grid10Rows {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+}
+
+.grid1Rows{
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+}
+
+header{
+	grid-column: 2 / span 8;
+	grid-row: 1 / span 1;
+}
+
+
+a:visited, a {
+	color: #5F5C6D;
+}
+
+.intro {
+	font-size: 40px;
+	grid-column: 2 / span 8;
+	grid-row: 2 / span 6;
+}
+
+.scroll{
+	grid-column: 2 / span 1;
+	grid-row: 6 / span 3;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+  display: inline;
+}
+
+span {
+	background: linear-gradient(180deg,#FFC470, #FC9A84);
+	background-repeat: no-repeat;
+	padding: 0 10px 0 0;
+  background-size: 110% 30%;
+  background-position-y : 40px;
+	font-style: italic;
+}
+
+.id {
+  display: none;
+  pointer-events: none;
+  position: absolute;
+  width: 300px;
+	z-index: auto;
+}
+
+.ad {
+	z-index: 3;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-links {
+	padding: 0 3em 0 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	max-width: 70px;
+}
+
+
+
+/* galerie projet */
+.grid10Rows>p {
+	grid-column: 2 / span 8;
+	grid-row: 1 / span 9;
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.mobileTabletteOnly {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+img.image_1 {
+  grid-column: 4 /  span 4;
+  grid-row: 1 / span 4;
+}
+
+
+img.image_2 {
+  grid-column: 7 / span 3;
+  grid-row: 2 / span 3;
+}
+
+
+img.image_3 {
+  grid-column: 3 / span 4;
+  grid-row: 3 / span 5;
+}
+
+
+img.image_4 {
+  grid-column: 6 / span 4;
+  grid-row: 4 / span 5;
+}
+
+img.image_5 {
+  grid-column: 2 / span 2;
+  grid-row: 4 / span 2;
+}
+
+.draggable {
+	cursor: move;
+}
+
+
+/* pied de page */
+.socials {
+	padding: 0 2em;
+}
+
+footer{
+	text-align: center;
+}
+
+/* Page A propos*/
+
+.biography {
+	grid-column: 2 / span 4;
+	grid-row: 2 / span 10;
+}
+
+.portrait {
+	grid-column: 7 / span 3;
+	grid-row: 2 / span 10;
+}
+
+.mesCompetences h2 {
+	grid-column: 2 / span 8;
+	grid-row: 1 / span 5;
+}
+
+.mesCompetences .items_1 {
+	grid-column: 2 / span 2;
+	grid-row: 3 / span 5;
+}
+
+.mesCompetences .items_2 {
+	grid-column: 5 / span 2;
+	grid-row: 3 / span 5;
+}
+
+.mesCompetences .items_3 {
+	grid-column: 8 / span 2;
+	grid-row: 3 / span 5;
+}
+
+/* page projet : showreel*/
+iframe {
+	grid-column: 2 / span 8;
+  grid-row: 1 / span 8;
+}
+
+/* page projet : ODE */
+.ODE .bannerProjet {
+	grid-column: 2 / span 8;
+  grid-row: 1 / span 10;
+}
+
+.ODE .context_left {
+	grid-column: 2 / span 5;
+	grid-row: 2 / span 5;
+}
+
+.ODE .context_right {
+	grid-column: 8/ span 2;
+	grid-row: 3 / span 5;
+}
+
+.ODE h2 {
+	grid-column: 2/ span 3;
+	grid-row: 7 / span 1;
+}
+
+.ODE .openEntNg {
+	grid-column: 2/ span 3;
+	grid-row: 8 / span 3;
+}
+
+.ODE .neoEnt {
+	grid-column: 7/ span 3;
+	grid-row: 8 / span 3;
+}
+
+.ODE footer{
+	padding-top: 60px;
+}

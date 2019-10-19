@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio - Elodie Deshayes</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link rel='stylesheet' href='http://www.cnap.graphismeenfrance.fr/faune/styles/faune-fontes.css'>
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+<body>
+
+<section class="grid1Rows">
+	<header >
+		<a href="index.html" class="logo"><img src="img/logo.png"></a>
+		<nav>
+			<a class="header-links" href="a-propos.html" target="_blank">À propos</a>
+			<a href="https://elodiedshys.github.io/laboratoire/" target="_blank">Lab</a>
+		</nav>
+	</header>
+</section>
+<section class="grid10Rows">
+	<div class="intro">
+		<p><em>Bonjour, Moi c'est Elodie Deshayes.<br>
+Je suis UX/UI Designer à Paris. J'étudie aux Gobelins. (Mais j'aime aussi <span class="iceCream ad">les glaces</span> )</em> </p><br>
+	<img class="id" src="https://media.giphy.com/media/3o6MbfAHpyqvOIsl9u/source.gif">
+	</div>
+	<img src="img/scroll.gif" alt="flèche" class="scroll">
+</section>
+
+<section class="grid10Rows desktopOnly">
+		<p>
+		Ici, vous pouvez découvrir mon <a href="projet/showreel.html" target="_blank"><span>Showreel</span></a> ?
+		Sinon, pourquoi ne pas jouer au <a href="projet/noctambule.html" target="_blank"><span>Noctambule</span></a> chez <a href="projet/ODE.html" target="_blank"><span>Open Digital Education</span></a> ?
+		Mais, peut-être que vous ne préfériez la <span>Synesthesie</span> de <span>Mademoiselle Loyale</span> ?
+		</p>
+
+		<img src="img/ML.png" class="image_1 draggable">
+		<img src="img/showreel.gif" class="image_2 draggable">
+		<img src="img/ODE.png" class="image_3 draggable">
+		<img src="img/noctambule.png" class="image_4 draggable">
+		<img src="img/synesthesie.gif" class="image_5 draggable">
+</section>
+
+
+<section class="grid10Rows mobileTabletteOnly">
+		<div class="projet1">
+			<img src="img/ML.png">
+			<h3>Mademoiselle Loyale</h3>
+			<a href="" target="_blank"><span>voir le projet</span></a>
+		</div>
+
+		<div class="projet2">
+			<img src="img/ODE.png">
+			<h3>ODE</h3>
+			<a href="projet/ODE.html" target="_blank"><span>voir le projet</span></a>
+		</div>
+
+		<div class="projet3">
+			<img src="img/showreel.gif">
+			<h3>Showreel</h3>
+			<a href="projet/showreel.html" target="_blank"><span>voir le projet</span></a>
+		</div>
+
+		<div class="projet4">
+			<img src="img/synesthesie.gif">
+			<h3>Synesthesie</h3>
+			<a href="" target="_blank"><span>voir le projet</span></a>
+		</div>
+
+		<div class="projet5">
+			<img src="img/noctambule.png">
+			<h3>Noctambule</h3>
+			<a href="" target="_blank"><span>voir le projet</span></a>
+		</div>
+</section>
+
+
+	<footer>
+				<p>
+					<a href="https://dribbble.com/elodiedeshayes" target="_blank" class="socials" >Dribbble</a> ⏤
+					<a href="https://www.instagram.com/elodie.dshys/" target="_blank" class="socials" >Instagram</a> ⏤
+					<a href="https://twitter.com/elodiedshys" target="_blank" class="socials">Twitter</a>
+				</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+$( function() {
+var div = $( ".draggable" ).draggable({scroll: false});
+});
+
+
+		$('.iceCream').mousemove(function(e)
+		{
+			$('.id').css(
+			{
+				'display' : 'inline',
+				'left' : e.pageX - 50,
+				'top' : e.pageY - 50
+			});
+		})
+
+		$('.iceCream').mouseout(function()
+		{
+			$('.id').css('display', 'none');
+			console.log("ok");
+		})
+
+</script>
+</html>

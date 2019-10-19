@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Noctambule - Elodie Deshayes</title>
+	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../responsive.css">
+	<link rel='stylesheet' href='http://www.cnap.graphismeenfrance.fr/faune/styles/faune-fontes.css'>
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+<body class="noctambule">
+
+<section class="grid1Rows">
+	<header >
+		<a href="../index.html" class="logo"><img src="../img/logo.png"></a>
+		<nav>
+			<a class="header-links" href="../a-propos.html">À propos</a>
+			<a href="https://elodiedshys.github.io/laboratoire/" target="_blank">Lab</a>
+		</nav>
+	</header>
+</section>
+<section class="grid10Rows">
+	<div class="intro">
+		<h1>Noctambule</h1>
+	</div>
+</section>
+
+<section class="grid10Rows">
+	<iframe src="https://player.vimeo.com/video/214082214?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</section>
+
+	<footer>
+				<p>
+					<a href="https://dribbble.com/elodiedeshayes" target="_blank" class="socials" >Dribbble</a> ⏤
+					<a href="https://www.instagram.com/elodie.dshys/" target="_blank" class="socials" >Instagram</a> ⏤
+					<a href="https://twitter.com/elodiedshys" target="_blank" class="socials">Twitter</a>
+				</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+$( function() {
+var div = $( ".draggable" ).draggable({});
+});
+
+
+		$('.iceCream').mousemove(function(e)
+		{
+			$('.id').css(
+			{
+				'display' : 'inline',
+				'left' : e.pageX - 50,
+				'top' : e.pageY - 50
+			});
+		})
+
+		$('.iceCream').mouseout(function()
+		{
+			$('.id').css('display', 'none');
+			console.log("ok");
+		})
+
+</script>
+</html>
