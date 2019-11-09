@@ -1,11 +1,12 @@
-
-
 body {
 	background-color: #f9f9f9;
 	width: 1000px;
 	margin: 50px auto 50px auto;
 	font-family: 'Faune', sans-serif;
 	color: #5F5C6D;
+
+	background-image: linear-gradient(90deg, #f9f9f9 0.33%, #ffffff 0.33%, #ffffff 50%, #f9f9f9 50%, #fff1e0 50.33%, #ffffff 50.33%, #ffffff 100%);
+	background-size: 302.00px 302.00px;
 }
 
 /* layout */
@@ -89,6 +90,10 @@ a {
 
 .logo {
 	max-width: 70px;
+}
+
+p {
+	font-weight: 300;
 }
 
 
@@ -183,43 +188,86 @@ footer{
 	grid-row: 3 / span 5;
 }
 
-/* page projet : showreel*/
-iframe {
-	grid-column: 2 / span 8;
-  grid-row: 1 / span 8;
+/* page projet : ML */
+
+.ML .intro {
+	text-align: center;
 }
 
-/* page projet : ODE */
-.ODE .bannerProjet {
-	grid-column: 2 / span 8;
-  grid-row: 1 / span 10;
-}
-
-.ODE .context_left {
-	grid-column: 2 / span 5;
+.ML .context_left {
+	grid-column: 1 / span 5;
 	grid-row: 2 / span 5;
 }
 
-.ODE .context_right {
-	grid-column: 8/ span 2;
-	grid-row: 3 / span 5;
+.ML .context_right {
+	grid-column: 6/ span 5;
+	grid-row: 2 / span 5;
+	padding-left: 1em;
 }
 
-.ODE h2 {
+.ML h2 {
 	grid-column: 2/ span 3;
 	grid-row: 7 / span 1;
 }
 
-.ODE .openEntNg {
-	grid-column: 2/ span 3;
-	grid-row: 8 / span 3;
+.ML .responsive {
+    grid-column: 1 / span 5;
+    grid-row: 4 / span 5;
+    padding-right: 1em;
 }
 
-.ODE .neoEnt {
-	grid-column: 7/ span 3;
-	grid-row: 8 / span 3;
+.ML .ux {
+	grid-column: 6/ span 5;
+    grid-row: 4 / span 5;
+    padding-left: 1em;
 }
 
-.ODE footer{
+.ML .mockup {
+    grid-column: 1/ span 10;
+    grid-row: 8 / span 5;
+}
+
+.ML footer{
 	padding-top: 60px;
 }
+
+
+.ML .parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ML .entete {
+  background-image: url(img/mademoiselleLoyale/ML-header.jpg);
+  min-height: 500px; 
+}
+
+.ML .maquette {
+  background-image: url(img/mademoiselleLoyale/ML-maquette.png);
+  min-height: 800px; 
+  margin-top: 5em;
+}
+
+.ML .categorie {
+    background: linear-gradient(180deg,#FFC470, #FC9A84);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px;
+    letter-spacing: 4px;
+    margin-right: 1em;
+    grid-column: span 2;
+    text-align: center;
+}
+
+.ML .first {
+    grid-column: 4/ span 2;
+    grid-row: 6 / span 1;
+}
+
+.ML .second {
+    grid-column: 6/ span 2;
+    grid-row: 6 / span 1;
+}
+
