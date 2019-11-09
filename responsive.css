@@ -134,52 +134,44 @@
 		grid-row: 6 / span 3;
 	}
 
-	/* page projet : showreel + noctambule */
-	.showreel iframe, .noctambule iframe {
-		max-width: 400px;
-	}
-
-	.showreel .intro, .noctambule .intro{
-	    grid-row: 2 / span 10;
-	}
-	/* page projet : ODE*/
-	.ODE .intro {
+	/* page projet : ML*/
+	.ML .intro {
 		grid-row: 2 / span 10;
 	}
 
-	.ODE .context_left, .ODE .context_right, .ODE .openEntNg,	.ODE .neoEnt {
+	.ML .context_left, .ML .context_right, .ML .openEntNg,	.ML .neoEnt {
 		max-height: 400px;
 	}
 
-	.ODE .context_left {
+	.ML .context_left {
 		grid-column: 2 / span 8;
 		grid-row: 1 / span 2;
 	}
 
-	.ODE .context_right {
+	.ML .context_right {
 		grid-column: 2 / span 8;
 		grid-row: 3 / span 2;
 	}
 
-	.ODE h2 {
+	.ML h2 {
 		grid-column: 2/ span 9;
 		grid-row: 5 / span 1;
 		max-height: 40px;
 	}
 
-	.ODE .openEntNg {
+	.ML .openEntNg {
 	    grid-column: 2/ span 8;
 	    grid-row: 6 / span 2;
 			max-height: 400px;
 	}
 
-	.ODE .neoEnt {
+	.ML .neoEnt {
 			grid-column: 2/ span 8;
 			grid-row: 8 / span 3;
 			max-height: 400px;
 	}
 
-	.ODE .bannerProjet {
+	.ML .bannerProjet {
 		grid-column: 1 / span 10;
 		grid-row: 1 / span 10;
 	}
