@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600i,700|ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Playfair+Display:700&display=swap');
 
 body {
 	background-color: #f9f9f9;
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'ZCOOL XiaoWei', serif;
+	font-family: 'Playfair Display', serif;
 }
 
 h1 {
