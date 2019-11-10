@@ -53,8 +53,6 @@ a:visited, a {
     font-size: 30px;
 }
 
-
-
 .scroll{
 	grid-column: 2 / span 1;
 	grid-row: 6 / span 3;
@@ -247,6 +245,12 @@ footer{
 .ML .projet .illustration .ux {
 	padding-left: 1em;
 }
+
+
+.ML .projet .illustration .responsive, .ML .projet .illustration .ux {
+	max-width: 45%;
+}
+
 
 .ML .projet .description {
 	width: 800px;
