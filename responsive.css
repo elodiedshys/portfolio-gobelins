@@ -43,9 +43,15 @@
 
 	.mobileTabletteOnly img {
 		height: auto;
+		width: 80vw;
 	}
+	
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
 
-	/* Page A propos*/
 
 	.bioImg, .mesCompetences {
 	    width: 640px;
@@ -60,7 +66,12 @@
 		background-position-y: 13px;
 	}
 
-	/* Page Mademoiselle Loyal*/
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
+
 	.ML .context_right {
     grid-column: 6/ span 4;
     grid-row: 1 / span 2;
@@ -130,7 +141,11 @@
 		height: auto;
 	}
 
-	/* page a propos */
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
 
 	.aPropos p {
 		font-size: 16px;
@@ -161,7 +176,11 @@
 		margin: 0 20%;
 	}
 
-	/* page projet : ML*/
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
 	.ML .intro {
     font-size: 35px;
 	}
@@ -190,6 +209,8 @@
 
 	.ML .projet .illustration .responsive, .ML .projet .illustration .ux  {
 	padding: 1em 0;
+	width: 100%;
+	max-width: 100%;
 	}
 
 	.ML .projet .mockup, .ML .maquette {

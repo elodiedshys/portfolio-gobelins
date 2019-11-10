@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Playfair+Display:700&display=swap');
 
+/* GENERAL */
+/* GENERAL */
+/* GENERAL */
+/* GENERAL */
+/* GENERAL */
+/* GENERAL */
+
 body {
 	background-color: #f9f9f9;
 	width: 1000px;
 	margin: 50px auto 50px auto;
 	font-family: 'Montserrat', sans-serif;
 	color: #5F5C6D;
+
+	cursor: crosshair;
+
+	/*créer un background de légères lignes verticales*/
 	background-image: linear-gradient(90deg, #f9f9f9 0.33%, #ffffff 0.33%, #ffffff 50%, #f9f9f9 50%, #fff1e0 50.33%, #ffffff 50.33%, #ffffff 100%);
 	background-size: 302.00px 302.00px;
+
 }
 
 h1, h2, h3 {
@@ -18,7 +30,7 @@ h1 {
 	margin-bottom: 0;
 }
 
-/* layout */
+/* grille de mise en page réutilisées à plusieurs endroits du site*/
 
 .grid10Rows {
 	display: grid;
@@ -56,6 +68,7 @@ a:visited, a {
 .scroll{
 	grid-column: 2 / span 1;
 	grid-row: 6 / span 3;
+	padding-top: 1em;
 }
 
 em {
@@ -183,6 +196,10 @@ footer{
 }
 
 /* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
+/* Page A propos*/
 
 .bioImg, .mesCompetences {
     width: 800px;
@@ -214,7 +231,10 @@ footer{
 
 
 /* page projet : ML */
-
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
+/* page projet : ML */
 .ML .intro {
 	text-align: center;
 }
